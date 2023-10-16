@@ -157,6 +157,7 @@
             Controls.Add(button_2pmode);
             Controls.Add(button_1pmode);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "MainApp";
             Text = "Ahorcadox - Menú principal";
             ResumeLayout(false);

@@ -1,6 +1,6 @@
 ﻿namespace Ahorcado_JCMG.Forms
 {
-    partial class _1PlayerMode
+    partial class ConfigurationForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,34 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            buttonAceptar = new Button();
             SuspendLayout();
             // 
-            // label1
+            // buttonAceptar
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(285, 151);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
+            buttonAceptar.Location = new Point(357, 171);
+            buttonAceptar.Name = "buttonAceptar";
+            buttonAceptar.Size = new Size(75, 23);
+            buttonAceptar.TabIndex = 0;
+            buttonAceptar.Text = "button1";
+            buttonAceptar.UseVisualStyleBackColor = true;
+            buttonAceptar.Click += buttonAceptar_Click;
             // 
-            // _1PlayerMode
+            // ConfigurationForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.game_background_ajusted;
-            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1008, 729);
-            Controls.Add(label1);
-            Name = "_1PlayerMode";
-            Text = "Juego - 1 Jugador";
+            Controls.Add(buttonAceptar);
+            Name = "ConfigurationForm";
+            Text = "Opciones de partida";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
+        private Button buttonAceptar;
     }
 }

@@ -1,3 +1,5 @@
+using Ahorcado_JCMG.Forms;
+
 namespace Ahorcado_JCMG
 {
     public partial class MainApp : Form
@@ -45,18 +47,31 @@ namespace Ahorcado_JCMG
 
         private void button_1pmode_Click(object sender, EventArgs e)
         {
-            // Crear una instancia de 1PlayerMode
-            Forms._1PlayerMode form1PlayerMode = new Forms._1PlayerMode();
+            // Abre el formulario de configuración de partida
+            ConfigurationForm configForm = new ConfigurationForm();
+            configForm.AceptarConfiguracion += (sender2, e2) =>
+            {
+                // Evento que se dispara cuando se acepta la configuración
+                configForm.Close();
 
-            // Configurar las mismas medidas y posición que MainApp
-            form1PlayerMode.Size = this.Size;
-            form1PlayerMode.Location = this.Location;
+                // Abre el formulario de selección de avatares
+                AvatarSelectionForm avatarForm = new AvatarSelectionForm();
+                avatarForm.AceptarAvatares += (sender3, e3) =>
+                {
+                    // Evento que se desencadena cuando se acepta la selección de avatares
+                    avatarForm.Close();
 
-            // Mostrar 1PlayerMode y ocultar MainApp
-            form1PlayerMode.Show();
+                    // Abre el formulario de juego 1P
+                    Forms._1PlayerMode gameForm = new Forms._1PlayerMode();
+                    gameForm.Show();
+                    gameForm.FormClosed += (s, args) => this.Show(); // Muestra MainApp cuando gameForm se cierre
+                };
+
+                avatarForm.ShowDialog();
+            };
+
+            configForm.ShowDialog();
             this.Hide();
-
-            form1PlayerMode.FormClosed += (s, args) => this.Show();
         }
 
         private void button_2pmode_Click(object sender, EventArgs e)

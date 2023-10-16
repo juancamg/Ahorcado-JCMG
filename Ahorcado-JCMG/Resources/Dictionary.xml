@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<wordlist>
+	<!-- Categoría: Animales -->
+	<word category="Animales">Perro</word>
+	<word category="Animales">Gato</word>
+	<word category="Animales">Elefante</word>
+	<word category="Animales">León</word>
+	<word category="Animales">Tigre</word>
+	<word category="Animales">Cebra</word>
+	<word category="Animales">Pájaro</word>
+	<word category="Animales">Delfín</word>
+	<word category="Animales">Jirafa</word>
+	<word category="Animales">Tiburón</word>
+	<word category="Animales">Oso</word>
+	<word category="Animales">Serpiente</word>
+	<word category="Animales">Hipopótamo</word>
+	<word category="Animales">Rinoceronte</word>
+	<word category="Animales">Ardilla</word>
+
+	<!-- Categoría: Ciudades -->
+	<word category="Ciudades">París</word>
+	<word category="Ciudades">Nueva York</word>
+	<word category="Ciudades">Londres</word>
+	<word category="Ciudades">Tokio</word>
+	<word category="Ciudades">Roma</word>
+	<word category="Ciudades">Sídney</word>
+	<word category="Ciudades">Madrid</word>
+	<word category="Ciudades">Berlín</word>
+	<word category="Ciudades">Pekín</word>
+	<word category="Ciudades">Moscú</word>
+	<word category="Ciudades">Atenas</word>
+	<word category="Ciudades">Toronto</word>
+	<word category="Ciudades">Dubái</word>
+	<word category="Ciudades">Estambul</word>
+	<word category="Ciudades">El Cairo</word>
+
+	<!-- Categoría: Deportes -->
+	<word category="Deportes">Fútbol</word>
+	<word category="Deportes">Baloncesto</word>
+	<word category="Deportes">Tenis</word>
+	<word category="Deportes">Golf</word>
+	<word category="Deportes">Natación</word>
+	<word category="Deportes">Atletismo</word>
+	<word category="Deportes">Ciclismo</word>
+	<word category="Deportes">Hockey</word>
+	<word category="Deportes">Voleibol</word>
+	<word category="Deportes">Rugby</word>
+	<word category="Deportes">Boxeo</word>
+	<word category="Deportes">Esquí</word>
+	<word category="Deportes">Surf</word>
+	<word category="Deportes">Ajedrez</word>
+	<word category="Deportes">Críquet</word>
+</wordlist>
+
