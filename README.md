@@ -28,7 +28,7 @@ Si deseas contribuir al proyecto, siéntete libre de abrir problemas (issues) en
 Juan Carlos Maceras García
 
 ## Derechos de Imágenes 📸
-Todas las imágenes creadas para este proyecto han sido generadas por IA, pero son propiedad del autor en su totalidad y están protegidas por derechos de autor.
+Todas las imágenes creadas para este proyecto han sido generadas por IA, pero son propiedad del autor en su totalidad y están protegidas por derechos de autor. Además, se han utilizado iconos de teclas de teclado realizados por Nicolae (XELU) Berbece con licencia Creative Commons 0 (CC0), completamente libres para su uso en cualquier proyecto personal o comercial. Puedes descargar estos iconos [aquí](https://thoseawesomeguys.com/prompts/).
 
 ## Licencia 📄
 
