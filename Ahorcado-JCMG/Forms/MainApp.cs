@@ -65,13 +65,11 @@ namespace Ahorcado_JCMG
                     Forms._1PlayerMode gameForm = new Forms._1PlayerMode();
                     gameForm.Show();
                     gameForm.FormClosed += (s, args) => this.Show(); // Muestra MainApp cuando gameForm se cierre
+                    this.Hide();
                 };
-
                 avatarForm.ShowDialog();
             };
-
             configForm.ShowDialog();
-            this.Hide();
         }
 
         private void button_2pmode_Click(object sender, EventArgs e)

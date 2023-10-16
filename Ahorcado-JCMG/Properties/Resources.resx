@@ -118,19 +118,271 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mainApp_background_ajusted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mainApp_background_ajusted.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GummyBear (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GummyBear (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="2playermode_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2playermode_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1playermode_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1playermode_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="game_background_ajusted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_background_ajusted.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mainApp_background_ajusted" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mainApp_background_ajusted.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="GummyBear (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GummyBear (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="storymode_icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\storymode_icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="game_background_ajusted" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\game_background_ajusted.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="GummyBear (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GummyBear (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GummyBear (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GummyBear (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1playermode_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1playermode_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GummyBear (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GummyBear (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GummyBear (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GummyBear (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="E_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\E_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="E_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\E_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="E_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\E_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\G_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\G_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\G_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="I_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\I_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="I_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\I_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="I_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\I_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="J_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\J_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="J_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\J_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="J_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\J_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\K_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\K_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\K_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="L_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\L_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\M_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\M_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="M_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\M_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\N_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\N_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="N_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\N_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="O_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\O_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="O_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\O_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="O_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\O_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Q_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Q_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Q_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Q_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Q_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Q_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="S_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\T_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="U_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\U_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="U_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\U_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="U_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\U_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\V_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\V_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\V_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="W_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\W_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="W_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\W_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="W_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\W_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Y_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Y_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Y_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Y_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Y_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Y_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Z_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Z_Key_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Z_Key_Light" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Z_Key_Light.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Z_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Z_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
