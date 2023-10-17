@@ -61,12 +61,26 @@
             Y_Key = new Button();
             Z_Key = new Button();
             palabraOcultaLabel = new Label();
+            panel1 = new Panel();
+            letra1 = new Button();
+            letra2 = new Button();
+            letra4 = new Button();
+            letra3 = new Button();
+            letra8 = new Button();
+            letra7 = new Button();
+            letra6 = new Button();
+            letra5 = new Button();
+            letra12 = new Button();
+            letra11 = new Button();
+            letra10 = new Button();
+            letra9 = new Button();
             ((System.ComponentModel.ISupportInitialize)image1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)image2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)image3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)image4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)image5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)image6).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // image1
@@ -617,11 +631,187 @@
             palabraOcultaLabel.AutoSize = true;
             palabraOcultaLabel.BackColor = Color.Transparent;
             palabraOcultaLabel.Font = new Font("Franklin Gothic Medium", 36F, FontStyle.Regular, GraphicsUnit.Point);
-            palabraOcultaLabel.Location = new Point(363, 407);
+            palabraOcultaLabel.Location = new Point(44, 659);
             palabraOcultaLabel.Name = "palabraOcultaLabel";
             palabraOcultaLabel.Size = new Size(299, 61);
             palabraOcultaLabel.TabIndex = 38;
             palabraOcultaLabel.Text = "P A L A B R A";
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.Transparent;
+            panel1.Controls.Add(letra12);
+            panel1.Controls.Add(letra8);
+            panel1.Controls.Add(letra11);
+            panel1.Controls.Add(letra10);
+            panel1.Controls.Add(letra7);
+            panel1.Controls.Add(letra9);
+            panel1.Controls.Add(letra6);
+            panel1.Controls.Add(letra5);
+            panel1.Controls.Add(letra4);
+            panel1.Controls.Add(letra3);
+            panel1.Controls.Add(letra2);
+            panel1.Controls.Add(letra1);
+            panel1.Location = new Point(237, 408);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(554, 58);
+            panel1.TabIndex = 39;
+            // 
+            // letra1
+            // 
+            letra1.FlatAppearance.BorderSize = 0;
+            letra1.FlatStyle = FlatStyle.Flat;
+            letra1.Font = new Font("Rubik", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
+            letra1.ForeColor = Color.Black;
+            letra1.Location = new Point(16, 6);
+            letra1.Name = "letra1";
+            letra1.Size = new Size(47, 50);
+            letra1.TabIndex = 0;
+            letra1.Text = "A";
+            letra1.UseVisualStyleBackColor = true;
+            // 
+            // letra2
+            // 
+            letra2.FlatAppearance.BorderSize = 0;
+            letra2.FlatStyle = FlatStyle.Flat;
+            letra2.Font = new Font("Rubik", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
+            letra2.ForeColor = Color.Black;
+            letra2.Location = new Point(61, 6);
+            letra2.Name = "letra2";
+            letra2.Size = new Size(47, 50);
+            letra2.TabIndex = 40;
+            letra2.Text = "A";
+            letra2.UseVisualStyleBackColor = true;
+            // 
+            // letra4
+            // 
+            letra4.FlatAppearance.BorderSize = 0;
+            letra4.FlatStyle = FlatStyle.Flat;
+            letra4.Font = new Font("Rubik", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
+            letra4.ForeColor = Color.Black;
+            letra4.Location = new Point(148, 6);
+            letra4.Name = "letra4";
+            letra4.Size = new Size(47, 50);
+            letra4.TabIndex = 42;
+            letra4.Text = "A";
+            letra4.UseVisualStyleBackColor = true;
+            // 
+            // letra3
+            // 
+            letra3.FlatAppearance.BorderSize = 0;
+            letra3.FlatStyle = FlatStyle.Flat;
+            letra3.Font = new Font("Rubik", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
+            letra3.ForeColor = Color.Black;
+            letra3.Location = new Point(103, 6);
+            letra3.Name = "letra3";
+            letra3.Size = new Size(47, 50);
+            letra3.TabIndex = 41;
+            letra3.Text = "A";
+            letra3.UseVisualStyleBackColor = true;
+            // 
+            // letra8
+            // 
+            letra8.FlatAppearance.BorderSize = 0;
+            letra8.FlatStyle = FlatStyle.Flat;
+            letra8.Font = new Font("Rubik", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
+            letra8.ForeColor = Color.Black;
+            letra8.Location = new Point(321, 6);
+            letra8.Name = "letra8";
+            letra8.Size = new Size(47, 50);
+            letra8.TabIndex = 46;
+            letra8.Text = "A";
+            letra8.UseVisualStyleBackColor = true;
+            // 
+            // letra7
+            // 
+            letra7.FlatAppearance.BorderSize = 0;
+            letra7.FlatStyle = FlatStyle.Flat;
+            letra7.Font = new Font("Rubik", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
+            letra7.ForeColor = Color.Black;
+            letra7.Location = new Point(276, 6);
+            letra7.Name = "letra7";
+            letra7.Size = new Size(47, 50);
+            letra7.TabIndex = 45;
+            letra7.Text = "A";
+            letra7.UseVisualStyleBackColor = true;
+            // 
+            // letra6
+            // 
+            letra6.FlatAppearance.BorderSize = 0;
+            letra6.FlatStyle = FlatStyle.Flat;
+            letra6.Font = new Font("Rubik", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
+            letra6.ForeColor = Color.Black;
+            letra6.Location = new Point(234, 6);
+            letra6.Name = "letra6";
+            letra6.Size = new Size(47, 50);
+            letra6.TabIndex = 44;
+            letra6.Text = "A";
+            letra6.UseVisualStyleBackColor = true;
+            // 
+            // letra5
+            // 
+            letra5.FlatAppearance.BorderSize = 0;
+            letra5.FlatStyle = FlatStyle.Flat;
+            letra5.Font = new Font("Rubik", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
+            letra5.ForeColor = Color.Black;
+            letra5.Location = new Point(189, 6);
+            letra5.Name = "letra5";
+            letra5.Size = new Size(47, 50);
+            letra5.TabIndex = 43;
+            letra5.Text = "A";
+            letra5.UseVisualStyleBackColor = true;
+            // 
+            // letra12
+            // 
+            letra12.FlatAppearance.BorderSize = 0;
+            letra12.FlatStyle = FlatStyle.Flat;
+            letra12.Font = new Font("Rubik", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
+            letra12.ForeColor = Color.Black;
+            letra12.Location = new Point(498, 5);
+            letra12.Name = "letra12";
+            letra12.Size = new Size(47, 50);
+            letra12.TabIndex = 46;
+            letra12.Text = "A";
+            letra12.UseVisualStyleBackColor = true;
+            // 
+            // letra11
+            // 
+            letra11.FlatAppearance.BorderSize = 0;
+            letra11.FlatStyle = FlatStyle.Flat;
+            letra11.Font = new Font("Rubik", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
+            letra11.ForeColor = Color.Black;
+            letra11.Location = new Point(453, 6);
+            letra11.Name = "letra11";
+            letra11.Size = new Size(47, 50);
+            letra11.TabIndex = 45;
+            letra11.Text = "A";
+            letra11.UseVisualStyleBackColor = true;
+            // 
+            // letra10
+            // 
+            letra10.FlatAppearance.BorderSize = 0;
+            letra10.FlatStyle = FlatStyle.Flat;
+            letra10.Font = new Font("Rubik", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
+            letra10.ForeColor = Color.Black;
+            letra10.Location = new Point(411, 6);
+            letra10.Name = "letra10";
+            letra10.Size = new Size(47, 50);
+            letra10.TabIndex = 44;
+            letra10.Text = "A";
+            letra10.UseVisualStyleBackColor = true;
+            // 
+            // letra9
+            // 
+            letra9.FlatAppearance.BorderSize = 0;
+            letra9.FlatStyle = FlatStyle.Flat;
+            letra9.Font = new Font("Rubik", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
+            letra9.ForeColor = Color.Black;
+            letra9.Location = new Point(366, 6);
+            letra9.Name = "letra9";
+            letra9.Size = new Size(47, 50);
+            letra9.TabIndex = 43;
+            letra9.Text = "A";
+            letra9.UseVisualStyleBackColor = true;
             // 
             // _1PlayerMode
             // 
@@ -630,6 +820,7 @@
             BackgroundImage = Properties.Resources.game_background_ajusted;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1008, 729);
+            Controls.Add(panel1);
             Controls.Add(palabraOcultaLabel);
             Controls.Add(Z_Key);
             Controls.Add(Y_Key);
@@ -671,6 +862,7 @@
             ((System.ComponentModel.ISupportInitialize)image4).EndInit();
             ((System.ComponentModel.ISupportInitialize)image5).EndInit();
             ((System.ComponentModel.ISupportInitialize)image6).EndInit();
+            panel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -709,5 +901,18 @@
         private Button Y_Key;
         private Button Z_Key;
         private Label palabraOcultaLabel;
+        private Panel panel1;
+        private Button letra1;
+        private Button letra12;
+        private Button letra8;
+        private Button letra11;
+        private Button letra10;
+        private Button letra7;
+        private Button letra9;
+        private Button letra6;
+        private Button letra5;
+        private Button letra4;
+        private Button letra3;
+        private Button letra2;
     }
 }

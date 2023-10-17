@@ -98,13 +98,16 @@ namespace Ahorcado_JCMG.Forms
                 {
                     // Has perdido
                     MessageBox.Show("¡Has perdido! La palabra era: " + palabraSecreta);
-                } else
+                }
+                else
                 {
                     ActualizarImagenAhorcado();
                 }
             }
             return encontrada;
         }
+
+
 
 
         private void Letra_Click(object sender, EventArgs e, char letra)
