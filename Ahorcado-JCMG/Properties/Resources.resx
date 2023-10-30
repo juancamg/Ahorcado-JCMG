@@ -121,7 +121,7 @@
   <data name="mainApp_background_ajusted" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mainApp_background_ajusted.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GummyBear (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="GummyBear4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GummyBear (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="2playermode_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -130,25 +130,25 @@
   <data name="game_background_ajusted" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\game_background_ajusted.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GummyBear (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="GummyBear2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GummyBear (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="storymode_icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\storymode_icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GummyBear (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="GummyBear5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GummyBear (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GummyBear (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="GummyBear1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GummyBear (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1playermode_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1playermode_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GummyBear (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="GummyBear3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GummyBear (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GummyBear (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="GummyBear6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GummyBear (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="A_Key_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -384,5 +384,26 @@
   </data>
   <data name="Z_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Z_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avatar (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avatar (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avatar (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avatar (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avatar (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avatar (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Avatar__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Avatar (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

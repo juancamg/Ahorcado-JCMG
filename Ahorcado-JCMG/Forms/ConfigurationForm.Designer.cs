@@ -35,7 +35,7 @@
             // 
             // buttonAceptar
             // 
-            buttonAceptar.Location = new Point(133, 200);
+            buttonAceptar.Location = new Point(440, 260);
             buttonAceptar.Name = "buttonAceptar";
             buttonAceptar.Size = new Size(138, 47);
             buttonAceptar.TabIndex = 0;
@@ -50,7 +50,7 @@
             comboBoxCategoria.FlatStyle = FlatStyle.Flat;
             comboBoxCategoria.FormattingEnabled = true;
             comboBoxCategoria.Items.AddRange(new object[] { "Animales", "Ciudades", "Deportes" });
-            comboBoxCategoria.Location = new Point(208, 72);
+            comboBoxCategoria.Location = new Point(440, 179);
             comboBoxCategoria.Name = "comboBoxCategoria";
             comboBoxCategoria.Size = new Size(133, 23);
             comboBoxCategoria.TabIndex = 4;
@@ -58,16 +58,21 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(43, 75);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Impact", 48F, FontStyle.Italic, GraphicsUnit.Point);
+            label1.ForeColor = SystemColors.ActiveCaption;
+            label1.Location = new Point(201, 44);
             label1.Name = "label1";
-            label1.Size = new Size(141, 15);
+            label1.Size = new Size(620, 80);
             label1.TabIndex = 5;
-            label1.Text = "Seleccione una categoría:";
+            label1.Text = "SELECCIONA CATEGORÍA";
             // 
             // ConfigurationForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.game_background_ajusted;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1008, 729);
             Controls.Add(label1);
             Controls.Add(comboBoxCategoria);
@@ -81,7 +86,7 @@
         #endregion
 
         private Button buttonAceptar;
-        public static ComboBox comboBoxCategoria;
         private Label label1;
+        public ComboBox comboBoxCategoria;
     }
 }

@@ -22,13 +22,7 @@ namespace Ahorcado_JCMG.Forms
 
         private void buttonAceptar_Click(object sender, EventArgs e)
         {
-            // Realiza las configuraciones necesarias y validaciones
-            // ...
-
-            // Dispara el evento de aceptación
             AceptarConfiguracion?.Invoke(this, EventArgs.Empty);
-
-            // Cierra el formulario
             this.Close();
         }
     }

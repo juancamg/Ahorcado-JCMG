@@ -113,6 +113,76 @@ namespace Ahorcado_JCMG.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Avatar__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Avatar__1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Avatar__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Avatar__2_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Avatar__3_ {
+            get {
+                object obj = ResourceManager.GetObject("Avatar__3_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Avatar__4_ {
+            get {
+                object obj = ResourceManager.GetObject("Avatar__4_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Avatar__5_ {
+            get {
+                object obj = ResourceManager.GetObject("Avatar__5_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Avatar__6_ {
+            get {
+                object obj = ResourceManager.GetObject("Avatar__6_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Avatar__7_ {
+            get {
+                object obj = ResourceManager.GetObject("Avatar__7_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap B_Key_Green {
             get {
                 object obj = ResourceManager.GetObject("B_Key_Green", resourceCulture);
@@ -303,9 +373,9 @@ namespace Ahorcado_JCMG.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GummyBear__1_ {
+        internal static System.Drawing.Bitmap GummyBear1 {
             get {
-                object obj = ResourceManager.GetObject("GummyBear (1)", resourceCulture);
+                object obj = ResourceManager.GetObject("GummyBear1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -313,9 +383,9 @@ namespace Ahorcado_JCMG.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GummyBear__2_ {
+        internal static System.Drawing.Bitmap GummyBear2 {
             get {
-                object obj = ResourceManager.GetObject("GummyBear (2)", resourceCulture);
+                object obj = ResourceManager.GetObject("GummyBear2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,9 +393,9 @@ namespace Ahorcado_JCMG.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GummyBear__3_ {
+        internal static System.Drawing.Bitmap GummyBear3 {
             get {
-                object obj = ResourceManager.GetObject("GummyBear (3)", resourceCulture);
+                object obj = ResourceManager.GetObject("GummyBear3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -333,9 +403,9 @@ namespace Ahorcado_JCMG.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GummyBear__4_ {
+        internal static System.Drawing.Bitmap GummyBear4 {
             get {
-                object obj = ResourceManager.GetObject("GummyBear (4)", resourceCulture);
+                object obj = ResourceManager.GetObject("GummyBear4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -343,9 +413,9 @@ namespace Ahorcado_JCMG.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GummyBear__5_ {
+        internal static System.Drawing.Bitmap GummyBear5 {
             get {
-                object obj = ResourceManager.GetObject("GummyBear (5)", resourceCulture);
+                object obj = ResourceManager.GetObject("GummyBear5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -353,9 +423,9 @@ namespace Ahorcado_JCMG.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GummyBear__6_ {
+        internal static System.Drawing.Bitmap GummyBear6 {
             get {
-                object obj = ResourceManager.GetObject("GummyBear (6)", resourceCulture);
+                object obj = ResourceManager.GetObject("GummyBear6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -19,16 +19,54 @@ namespace Ahorcado_JCMG.Forms
             InitializeComponent();
         }
 
-    private void buttonAceptar_Click(object sender, EventArgs e)
-    {
-            // Realiza las configuraciones necesarias y validaciones
-            // ...
+        public int avatar = 0;
 
-            // Dispara el evento de aceptación
+        private void cerrarForm()
+        {
             AceptarAvatares?.Invoke(this, EventArgs.Empty);
-
-            // Cierra el formulario
             this.Close();
+        }
+
+        private void avatar1_button_Click(object sender, EventArgs e)
+        {
+            avatar = 1;
+            cerrarForm();
+        }
+
+        private void avatar2_button_Click(object sender, EventArgs e)
+        {
+            avatar = 2;
+            cerrarForm();
+        }
+
+        private void avatar3_button_Click(object sender, EventArgs e)
+        {
+            avatar = 3;
+            cerrarForm();
+        }
+
+        private void avatar6_button_Click(object sender, EventArgs e)
+        {
+            avatar = 6;
+            cerrarForm();
+        }
+
+        private void avatar4_button_Click(object sender, EventArgs e)
+        {
+            avatar = 4;
+            cerrarForm();
+        }
+
+        private void avatar5_button_Click(object sender, EventArgs e)
+        {
+            avatar = 5;
+            cerrarForm();
+        }
+
+        private void avatar7_button_Click(object sender, EventArgs e)
+        {
+            avatar = 7;
+            cerrarForm();
         }
     }
 
