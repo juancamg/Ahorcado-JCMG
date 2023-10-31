@@ -62,7 +62,8 @@ namespace Ahorcado_JCMG
                     avatarForm.Close();
 
                     // Abre el formulario de juego 1P
-                    Forms._1PlayerMode gameForm = new Forms._1PlayerMode();
+                    string categoriaSeleccionada = configForm.comboBoxCategoria.Text; // Obtén la categoría seleccionada
+                    _1PlayerMode gameForm = new _1PlayerMode(categoriaSeleccionada);
                     gameForm.InicializarAvatar(avatarForm.SelectedAvatar);
                     gameForm.Show();
                     gameForm.FormClosed += (s, args) => this.Show(); // Muestra MainApp cuando gameForm se cierre

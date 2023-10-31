@@ -20,10 +20,10 @@ namespace Ahorcado_JCMG.Forms
         char[] palabraOculta;
         int intentosFallidos = 0;
         Button[] letrasBotones = new Button[12];
-        public _1PlayerMode()
+        public _1PlayerMode(string categoriaSeleccionada)
         {
             InitializeComponent();
-            palabraSecreta = GenerarPalabra();
+            palabraSecreta = GenerarPalabra(categoriaSeleccionada);
             InicializarBotones();
         }
 
@@ -45,10 +45,8 @@ namespace Ahorcado_JCMG.Forms
             avatar_pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
-        private static String GenerarPalabra()
+        private static string GenerarPalabra(string categoriaSeleccionada)
         {
-            ConfigurationForm configForm = new ConfigurationForm();
-
             // Ruta del archivo XML
             string rutaArchivoXml = @"..\..\..\Resources\Dictionary.xml";
 
@@ -56,18 +54,16 @@ namespace Ahorcado_JCMG.Forms
             XmlDocument xmlDoc = new XmlDocument();
             xmlDoc.Load(rutaArchivoXml);
 
-            // Obtén la lista de palabras que pertenecen a la categoría seleccionada en ConfigurationForm
-            string categoriaSeleccionada = configForm.comboBoxCategoria.Text;
+            // Obtén la lista de palabras que pertenecen a la categoría seleccionada
             XmlNodeList words = xmlDoc.SelectNodes("/wordlist/word[@category='" + categoriaSeleccionada + "']");
 
             // Obtén una palabra aleatoria de la lista
             Random random = new Random();
-            string palabraSecreta;
-            palabraSecreta = words[random.Next(words.Count)].InnerText.ToUpper();
-            //String palabraSecreta = "BALONCESTO";
+            string palabraSecreta = words[random.Next(words.Count)].InnerText.ToUpper();
 
             return palabraSecreta;
         }
+
         private void InicializarBotones()
         {
             // Rellena el array letrasBotones con los botones correspondientes
