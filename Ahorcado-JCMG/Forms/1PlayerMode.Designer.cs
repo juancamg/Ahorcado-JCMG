@@ -28,12 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            image1 = new PictureBox();
-            image2 = new PictureBox();
-            image3 = new PictureBox();
-            image4 = new PictureBox();
-            image5 = new PictureBox();
-            image6 = new PictureBox();
             A_Key = new Button();
             B_Key = new Button();
             C_Key = new Button();
@@ -73,90 +67,12 @@
             letra3 = new Button();
             letra2 = new Button();
             letra1 = new Button();
-            pictureBox = new PictureBox();
             avatar_pictureBox = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)image1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)image2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)image3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)image4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)image5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)image6).BeginInit();
+            pictureBox_ahorcado = new PictureBox();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox).BeginInit();
             ((System.ComponentModel.ISupportInitialize)avatar_pictureBox).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_ahorcado).BeginInit();
             SuspendLayout();
-            // 
-            // image1
-            // 
-            image1.BackColor = Color.Transparent;
-            image1.Image = Properties.Resources.GummyBear1;
-            image1.Location = new Point(629, -13);
-            image1.Name = "image1";
-            image1.Size = new Size(386, 398);
-            image1.SizeMode = PictureBoxSizeMode.Zoom;
-            image1.TabIndex = 4;
-            image1.TabStop = false;
-            image1.Visible = false;
-            // 
-            // image2
-            // 
-            image2.BackColor = Color.Transparent;
-            image2.Image = Properties.Resources.GummyBear2;
-            image2.Location = new Point(629, -13);
-            image2.Name = "image2";
-            image2.Size = new Size(386, 398);
-            image2.SizeMode = PictureBoxSizeMode.Zoom;
-            image2.TabIndex = 5;
-            image2.TabStop = false;
-            image2.Visible = false;
-            // 
-            // image3
-            // 
-            image3.BackColor = Color.Transparent;
-            image3.Image = Properties.Resources.GummyBear3;
-            image3.Location = new Point(629, -13);
-            image3.Name = "image3";
-            image3.Size = new Size(386, 398);
-            image3.SizeMode = PictureBoxSizeMode.Zoom;
-            image3.TabIndex = 6;
-            image3.TabStop = false;
-            image3.Visible = false;
-            // 
-            // image4
-            // 
-            image4.BackColor = Color.Transparent;
-            image4.Image = Properties.Resources.GummyBear4;
-            image4.Location = new Point(629, -13);
-            image4.Name = "image4";
-            image4.Size = new Size(386, 398);
-            image4.SizeMode = PictureBoxSizeMode.Zoom;
-            image4.TabIndex = 7;
-            image4.TabStop = false;
-            image4.Visible = false;
-            // 
-            // image5
-            // 
-            image5.BackColor = Color.Transparent;
-            image5.Image = Properties.Resources.GummyBear5;
-            image5.Location = new Point(629, -13);
-            image5.Name = "image5";
-            image5.Size = new Size(386, 398);
-            image5.SizeMode = PictureBoxSizeMode.Zoom;
-            image5.TabIndex = 8;
-            image5.TabStop = false;
-            image5.Visible = false;
-            // 
-            // image6
-            // 
-            image6.BackColor = Color.Transparent;
-            image6.Image = Properties.Resources.GummyBear6;
-            image6.Location = new Point(629, -13);
-            image6.Name = "image6";
-            image6.Size = new Size(386, 398);
-            image6.SizeMode = PictureBoxSizeMode.Zoom;
-            image6.TabIndex = 9;
-            image6.TabStop = false;
-            image6.Visible = false;
             // 
             // A_Key
             // 
@@ -817,24 +733,23 @@
             letra1.UseVisualStyleBackColor = true;
             letra1.Visible = false;
             // 
-            // pictureBox
-            // 
-            pictureBox.BackColor = Color.Transparent;
-            pictureBox.Location = new Point(340, 39);
-            pictureBox.Name = "pictureBox";
-            pictureBox.Size = new Size(288, 291);
-            pictureBox.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox.TabIndex = 41;
-            pictureBox.TabStop = false;
-            pictureBox.Visible = false;
-            // 
             // avatar_pictureBox
             // 
-            avatar_pictureBox.Location = new Point(10, 12);
+            avatar_pictureBox.BackColor = Color.Transparent;
+            avatar_pictureBox.Location = new Point(57, 50);
             avatar_pictureBox.Name = "avatar_pictureBox";
-            avatar_pictureBox.Size = new Size(304, 281);
+            avatar_pictureBox.Size = new Size(230, 228);
             avatar_pictureBox.TabIndex = 42;
             avatar_pictureBox.TabStop = false;
+            // 
+            // pictureBox_ahorcado
+            // 
+            pictureBox_ahorcado.BackColor = Color.Transparent;
+            pictureBox_ahorcado.Location = new Point(629, -1);
+            pictureBox_ahorcado.Name = "pictureBox_ahorcado";
+            pictureBox_ahorcado.Size = new Size(386, 356);
+            pictureBox_ahorcado.TabIndex = 43;
+            pictureBox_ahorcado.TabStop = false;
             // 
             // _1PlayerMode
             // 
@@ -843,8 +758,8 @@
             BackgroundImage = Properties.Resources.game_background_ajusted;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1008, 729);
+            Controls.Add(pictureBox_ahorcado);
             Controls.Add(avatar_pictureBox);
-            Controls.Add(pictureBox);
             Controls.Add(panel1);
             Controls.Add(Z_Key);
             Controls.Add(Y_Key);
@@ -872,33 +787,15 @@
             Controls.Add(C_Key);
             Controls.Add(B_Key);
             Controls.Add(A_Key);
-            Controls.Add(image6);
-            Controls.Add(image5);
-            Controls.Add(image4);
-            Controls.Add(image3);
-            Controls.Add(image2);
-            Controls.Add(image1);
             Name = "_1PlayerMode";
             Text = "Juego - 1 Jugador";
-            ((System.ComponentModel.ISupportInitialize)image1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)image2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)image3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)image4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)image5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)image6).EndInit();
             panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox).EndInit();
             ((System.ComponentModel.ISupportInitialize)avatar_pictureBox).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox_ahorcado).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
-        private PictureBox image1;
-        private PictureBox image2;
-        private PictureBox image3;
-        private PictureBox image4;
-        private PictureBox image5;
-        private PictureBox image6;
         private Button A_Key;
         private Button B_Key;
         private Button C_Key;
@@ -938,7 +835,7 @@
         private Button letra4;
         private Button letra3;
         private Button letra2;
-        private PictureBox pictureBox;
-        private PictureBox avatar_pictureBox;
+        public PictureBox avatar_pictureBox;
+        public PictureBox pictureBox_ahorcado;
     }
 }

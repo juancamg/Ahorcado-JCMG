@@ -41,7 +41,7 @@
             // avatar1_button
             // 
             avatar1_button.BackColor = Color.Transparent;
-            avatar1_button.BackgroundImage = Properties.Resources.Avatar__1_;
+            avatar1_button.BackgroundImage = Properties.Resources.Avatar1;
             avatar1_button.BackgroundImageLayout = ImageLayout.Stretch;
             avatar1_button.Cursor = Cursors.Hand;
             avatar1_button.FlatAppearance.BorderSize = 0;
@@ -59,7 +59,7 @@
             // avatar2_button
             // 
             avatar2_button.BackColor = Color.Transparent;
-            avatar2_button.BackgroundImage = Properties.Resources.Avatar__2_;
+            avatar2_button.BackgroundImage = Properties.Resources.Avatar2;
             avatar2_button.BackgroundImageLayout = ImageLayout.Stretch;
             avatar2_button.Cursor = Cursors.Hand;
             avatar2_button.FlatAppearance.BorderSize = 0;
@@ -77,7 +77,7 @@
             // avatar3_button
             // 
             avatar3_button.BackColor = Color.Transparent;
-            avatar3_button.BackgroundImage = Properties.Resources.Avatar__3_;
+            avatar3_button.BackgroundImage = Properties.Resources.Avatar3;
             avatar3_button.BackgroundImageLayout = ImageLayout.Stretch;
             avatar3_button.Cursor = Cursors.Hand;
             avatar3_button.FlatAppearance.BorderSize = 0;
@@ -95,7 +95,7 @@
             // avatar4_button
             // 
             avatar4_button.BackColor = Color.Transparent;
-            avatar4_button.BackgroundImage = Properties.Resources.Avatar__4_;
+            avatar4_button.BackgroundImage = Properties.Resources.Avatar4;
             avatar4_button.BackgroundImageLayout = ImageLayout.Stretch;
             avatar4_button.Cursor = Cursors.Hand;
             avatar4_button.FlatAppearance.BorderSize = 0;
@@ -113,7 +113,7 @@
             // avatar5_button
             // 
             avatar5_button.BackColor = Color.Transparent;
-            avatar5_button.BackgroundImage = Properties.Resources.Avatar__5_;
+            avatar5_button.BackgroundImage = Properties.Resources.Avatar5;
             avatar5_button.BackgroundImageLayout = ImageLayout.Stretch;
             avatar5_button.Cursor = Cursors.Hand;
             avatar5_button.FlatAppearance.BorderSize = 0;
@@ -131,7 +131,7 @@
             // avatar6_button
             // 
             avatar6_button.BackColor = Color.Transparent;
-            avatar6_button.BackgroundImage = Properties.Resources.Avatar__6_;
+            avatar6_button.BackgroundImage = Properties.Resources.Avatar6;
             avatar6_button.BackgroundImageLayout = ImageLayout.Stretch;
             avatar6_button.Cursor = Cursors.Hand;
             avatar6_button.FlatAppearance.BorderSize = 0;
@@ -149,7 +149,7 @@
             // avatar7_button
             // 
             avatar7_button.BackColor = Color.Transparent;
-            avatar7_button.BackgroundImage = Properties.Resources.Avatar__7_;
+            avatar7_button.BackgroundImage = Properties.Resources.Avatar7;
             avatar7_button.BackgroundImageLayout = ImageLayout.Stretch;
             avatar7_button.Cursor = Cursors.Hand;
             avatar7_button.FlatAppearance.BorderSize = 0;

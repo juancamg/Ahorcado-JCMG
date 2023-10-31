@@ -14,58 +14,57 @@ namespace Ahorcado_JCMG.Forms
     {
         public event EventHandler AceptarAvatares;
 
+        public int SelectedAvatar { get; private set; }
+
         public AvatarSelectionForm()
         {
             InitializeComponent();
         }
 
-        public int avatar = 0;
-
         private void cerrarForm()
         {
             AceptarAvatares?.Invoke(this, EventArgs.Empty);
-            this.Close();
         }
 
         private void avatar1_button_Click(object sender, EventArgs e)
         {
-            avatar = 1;
+            SelectedAvatar = 1;
             cerrarForm();
         }
 
         private void avatar2_button_Click(object sender, EventArgs e)
         {
-            avatar = 2;
+            SelectedAvatar = 2;
             cerrarForm();
         }
 
         private void avatar3_button_Click(object sender, EventArgs e)
         {
-            avatar = 3;
+            SelectedAvatar = 3;
             cerrarForm();
         }
 
         private void avatar6_button_Click(object sender, EventArgs e)
         {
-            avatar = 6;
+            SelectedAvatar = 6;
             cerrarForm();
         }
 
         private void avatar4_button_Click(object sender, EventArgs e)
         {
-            avatar = 4;
+            SelectedAvatar = 4;
             cerrarForm();
         }
 
         private void avatar5_button_Click(object sender, EventArgs e)
         {
-            avatar = 5;
+            SelectedAvatar = 5;
             cerrarForm();
         }
 
         private void avatar7_button_Click(object sender, EventArgs e)
         {
-            avatar = 7;
+            SelectedAvatar = 7;
             cerrarForm();
         }
     }

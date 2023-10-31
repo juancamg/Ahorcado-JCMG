@@ -385,25 +385,28 @@
   <data name="Z_Key_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Z_Key_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Avatar__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Avatar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Avatar (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Avatar__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Avatar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Avatar (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Avatar__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Avatar3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Avatar (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Avatar__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Avatar4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Avatar (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Avatar__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Avatar5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Avatar (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Avatar__6_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Avatar6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Avatar (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Avatar__7_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Avatar7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Avatar (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dictionary.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
 </root>

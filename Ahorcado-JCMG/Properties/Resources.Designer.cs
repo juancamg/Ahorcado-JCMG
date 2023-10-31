@@ -113,9 +113,9 @@ namespace Ahorcado_JCMG.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Avatar__1_ {
+        internal static System.Drawing.Bitmap Avatar1 {
             get {
-                object obj = ResourceManager.GetObject("Avatar__1_", resourceCulture);
+                object obj = ResourceManager.GetObject("Avatar1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace Ahorcado_JCMG.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Avatar__2_ {
+        internal static System.Drawing.Bitmap Avatar2 {
             get {
-                object obj = ResourceManager.GetObject("Avatar__2_", resourceCulture);
+                object obj = ResourceManager.GetObject("Avatar2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace Ahorcado_JCMG.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Avatar__3_ {
+        internal static System.Drawing.Bitmap Avatar3 {
             get {
-                object obj = ResourceManager.GetObject("Avatar__3_", resourceCulture);
+                object obj = ResourceManager.GetObject("Avatar3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace Ahorcado_JCMG.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Avatar__4_ {
+        internal static System.Drawing.Bitmap Avatar4 {
             get {
-                object obj = ResourceManager.GetObject("Avatar__4_", resourceCulture);
+                object obj = ResourceManager.GetObject("Avatar4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace Ahorcado_JCMG.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Avatar__5_ {
+        internal static System.Drawing.Bitmap Avatar5 {
             get {
-                object obj = ResourceManager.GetObject("Avatar__5_", resourceCulture);
+                object obj = ResourceManager.GetObject("Avatar5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace Ahorcado_JCMG.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Avatar__6_ {
+        internal static System.Drawing.Bitmap Avatar6 {
             get {
-                object obj = ResourceManager.GetObject("Avatar__6_", resourceCulture);
+                object obj = ResourceManager.GetObject("Avatar6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace Ahorcado_JCMG.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Avatar__7_ {
+        internal static System.Drawing.Bitmap Avatar7 {
             get {
-                object obj = ResourceManager.GetObject("Avatar__7_", resourceCulture);
+                object obj = ResourceManager.GetObject("Avatar7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -267,6 +267,28 @@ namespace Ahorcado_JCMG.Properties {
             get {
                 object obj = ResourceManager.GetObject("D_Key_Red", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+        ///&lt;wordlist&gt;
+        ///	&lt;!-- Categoría: Animales --&gt;
+        ///	&lt;word category=&quot;Animales&quot;&gt;Perro&lt;/word&gt;
+        ///	&lt;word category=&quot;Animales&quot;&gt;Gato&lt;/word&gt;
+        ///	&lt;word category=&quot;Animales&quot;&gt;Elefante&lt;/word&gt;
+        ///	&lt;word category=&quot;Animales&quot;&gt;León&lt;/word&gt;
+        ///	&lt;word category=&quot;Animales&quot;&gt;Tigre&lt;/word&gt;
+        ///	&lt;word category=&quot;Animales&quot;&gt;Cebra&lt;/word&gt;
+        ///	&lt;word category=&quot;Animales&quot;&gt;Pájaro&lt;/word&gt;
+        ///	&lt;word category=&quot;Animales&quot;&gt;Delfín&lt;/word&gt;
+        ///	&lt;word category=&quot;Animales&quot;&gt;Jirafa&lt;/word&gt;
+        ///	&lt;word category=&quot;Animales&quot;&gt;Tiburón&lt;/word&gt;
+        ///	&lt;word categ [resto de la cadena truncado]&quot;;.
+        /// </summary>
+        internal static string Dictionary {
+            get {
+                return ResourceManager.GetString("Dictionary", resourceCulture);
             }
         }
         

@@ -63,6 +63,7 @@ namespace Ahorcado_JCMG
 
                     // Abre el formulario de juego 1P
                     Forms._1PlayerMode gameForm = new Forms._1PlayerMode();
+                    gameForm.InicializarAvatar(avatarForm.SelectedAvatar);
                     gameForm.Show();
                     gameForm.FormClosed += (s, args) => this.Show(); // Muestra MainApp cuando gameForm se cierre
                     this.Hide();
@@ -71,6 +72,7 @@ namespace Ahorcado_JCMG
             };
             configForm.ShowDialog();
         }
+
 
         private void button_2pmode_Click(object sender, EventArgs e)
         {

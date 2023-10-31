@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ahorcado_JCMG.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,13 +27,22 @@ namespace Ahorcado_JCMG.Forms
             InicializarBotones();
         }
 
-        private void InicializarAvatar()
+        public int SelectedAvatar { get; set; }
+
+        public void InicializarAvatar(int selectedAvatar)
         {
-            AvatarSelectionForm Avatar = new AvatarSelectionForm();
-            int avatarNumber = Avatar.avatar;
-            string avatarName = $"Avatar__{avatarNumber}_";
-            
-            // ya está el nombre del avatar listo, solo falta ponerlo en el pictureBox
+            switch (selectedAvatar)
+            {
+                case 1: avatar_pictureBox.Image = Properties.Resources.Avatar1; break;
+                case 2: avatar_pictureBox.Image = Properties.Resources.Avatar2; break;
+                case 3: avatar_pictureBox.Image = Properties.Resources.Avatar3; break;
+                case 4: avatar_pictureBox.Image = Properties.Resources.Avatar4; break;
+                case 5: avatar_pictureBox.Image = Properties.Resources.Avatar5; break;
+                case 6: avatar_pictureBox.Image = Properties.Resources.Avatar6; break;
+                case 7: avatar_pictureBox.Image = Properties.Resources.Avatar7; break;
+                default: avatar_pictureBox.Image = null; break;
+            }
+            avatar_pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
         private static String GenerarPalabra()
@@ -52,8 +62,9 @@ namespace Ahorcado_JCMG.Forms
 
             // Obtén una palabra aleatoria de la lista
             Random random = new Random();
-            //String palabraSecreta = words[random.Next(words.Count)].InnerText.ToUpper();
-            String palabraSecreta = "BALONCESTO";
+            string palabraSecreta;
+            palabraSecreta = words[random.Next(words.Count)].InnerText.ToUpper();
+            //String palabraSecreta = "BALONCESTO";
 
             return palabraSecreta;
         }
@@ -76,32 +87,23 @@ namespace Ahorcado_JCMG.Forms
             }
         }
 
-
         private void ActualizarImagenAhorcado(int intentos)
         {
             // Actualiza la imagen del ahorcado
-            //PictureBox pictureBox = (PictureBox)this.Controls["image" + (intentosFallidos).ToString()];
-            //pictureBox.Visible = true;
-
-            //picAhorcado.Image = (Bitmap)Properties.Resources.ResourceManager.GetObject("GummyBear" + intentosFallidos);
-            if (intentos >= 1 && intentos <= 6) // Asegura que el contador esté dentro del rango válido
+            switch (intentos)
             {
-                pictureBox.Image = Properties.Resources.ResourceManager.GetObject($"GummyBear{intentos}") as System.Drawing.Image;
+                case 0: break;
+                case 1: pictureBox_ahorcado.Image = Properties.Resources.GummyBear1; break;
+                case 2: pictureBox_ahorcado.Image = Properties.Resources.GummyBear2; break;
+                case 3: pictureBox_ahorcado.Image = Properties.Resources.GummyBear3; break;
+                case 4: pictureBox_ahorcado.Image = Properties.Resources.GummyBear4; break;
+                case 5: pictureBox_ahorcado.Image = Properties.Resources.GummyBear5; break;
+                case 6:
+                    pictureBox_ahorcado.Image = Properties.Resources.GummyBear6;
+                    MessageBox.Show("¡Has perdido! La palabra era: " + palabraSecreta);
+                    break;
             }
-        }
-
-        private void ActualizarPalabraOculta()
-        {
-            for (int i = 0; i < palabraSecreta.Length; i++)
-            {
-                char letra = palabraSecreta[i];
-                Button letraButton = this.Controls["letra" + (i + 1)] as Button;
-
-                if (palabraOculta[i] == letra)
-                {
-                    letraButton.Text = letra.ToString();
-                }
-            }
+            pictureBox_ahorcado.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
         private bool ComprobarLetra(char letra)
@@ -113,7 +115,6 @@ namespace Ahorcado_JCMG.Forms
                 if (palabraSecreta[i] == letra)
                 {
                     acierto = true;
-
                     // Actualiza la letra en el botón correspondiente
                     letrasBotones[i].Text = letra.ToString();
                 }
@@ -124,12 +125,6 @@ namespace Ahorcado_JCMG.Forms
                 // La letra no se encuentra en la palabra
                 intentosFallidos++;
                 ActualizarImagenAhorcado(intentosFallidos);
-
-                if (intentosFallidos == 6)
-                {
-                    // Has perdido
-                    MessageBox.Show("¡Has perdido! La palabra era: " + palabraSecreta);
-                }
                 return false;
             }
 
