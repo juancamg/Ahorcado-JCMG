@@ -1,11 +1,10 @@
 # Juego del Ahorcado en C# 🎮
 
 ## Descripción del Proyecto
-Este proyecto es una implementación del clásico juego del Ahorcado en C#. Ofrece tres emocionantes modos de juego: un modo historia, un modo multijugador por turnos y un modo clásico de un jugador.
+Este proyecto es una implementación del clásico juego del Ahorcado en C#. Ofrece dos emocionantes modos de juego: un modo clásico de un jugador y un modo multijugador por turnos.
 
 ## Características Clave 🚀
 - **Modo Clásico de un Jugador:** Juega en solitario y adivina palabras con un límite de intentos.
-- **Modo Historia:** Embárcate en una emocionante aventura en busca de un tesoro perdido. Resuelve palabras para avanzar en la trama.
 - **Modo Multijugador:** Desafía a amigos a adivinar palabras por turnos. Gana puntos y demuestra tus habilidades de adivinanza.
 - **Categorías Temáticas:** Elige entre una variedad de categorías para personalizar tus partidas y palabras a adivinar.
 - **Avatares Personalizables:** Elige entre varios avatares, como dinosaurios, hadas, piratas y más.
