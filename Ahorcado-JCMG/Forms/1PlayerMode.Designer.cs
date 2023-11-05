@@ -45,7 +45,7 @@
             O_Key = new Button();
             P_Key = new Button();
             Q_Key = new Button();
-            R__Key = new Button();
+            R_Key = new Button();
             S_Key = new Button();
             T_Key = new Button();
             U_Key = new Button();
@@ -70,9 +70,11 @@
             avatar_pictureBox = new PictureBox();
             pictureBox_ahorcado = new PictureBox();
             label_errores = new Label();
-            label_puntos = new Label();
+            label_puntosTot = new Label();
             button_salir = new Button();
             label_categoria = new Label();
+            label_puntosRond = new Label();
+            button_howtoplay = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)avatar_pictureBox).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_ahorcado).BeginInit();
@@ -90,7 +92,7 @@
             A_Key.FlatStyle = FlatStyle.Flat;
             A_Key.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             A_Key.ForeColor = Color.Transparent;
-            A_Key.Location = new Point(237, 494);
+            A_Key.Location = new Point(226, 483);
             A_Key.Name = "A_Key";
             A_Key.Size = new Size(50, 50);
             A_Key.TabIndex = 12;
@@ -110,7 +112,7 @@
             B_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             B_Key.FlatStyle = FlatStyle.Flat;
             B_Key.ForeColor = Color.Transparent;
-            B_Key.Location = new Point(293, 494);
+            B_Key.Location = new Point(282, 483);
             B_Key.Name = "B_Key";
             B_Key.Size = new Size(50, 50);
             B_Key.TabIndex = 13;
@@ -128,7 +130,7 @@
             C_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             C_Key.FlatStyle = FlatStyle.Flat;
             C_Key.ForeColor = Color.Transparent;
-            C_Key.Location = new Point(349, 494);
+            C_Key.Location = new Point(338, 483);
             C_Key.Name = "C_Key";
             C_Key.Size = new Size(50, 50);
             C_Key.TabIndex = 14;
@@ -146,7 +148,7 @@
             D_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             D_Key.FlatStyle = FlatStyle.Flat;
             D_Key.ForeColor = Color.Transparent;
-            D_Key.Location = new Point(405, 494);
+            D_Key.Location = new Point(394, 483);
             D_Key.Name = "D_Key";
             D_Key.Size = new Size(50, 50);
             D_Key.TabIndex = 15;
@@ -164,7 +166,7 @@
             E_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             E_Key.FlatStyle = FlatStyle.Flat;
             E_Key.ForeColor = Color.Transparent;
-            E_Key.Location = new Point(461, 494);
+            E_Key.Location = new Point(450, 483);
             E_Key.Name = "E_Key";
             E_Key.Size = new Size(50, 50);
             E_Key.TabIndex = 16;
@@ -182,7 +184,7 @@
             F_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             F_Key.FlatStyle = FlatStyle.Flat;
             F_Key.ForeColor = Color.Transparent;
-            F_Key.Location = new Point(517, 494);
+            F_Key.Location = new Point(506, 483);
             F_Key.Name = "F_Key";
             F_Key.Size = new Size(50, 50);
             F_Key.TabIndex = 17;
@@ -200,7 +202,7 @@
             G_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             G_Key.FlatStyle = FlatStyle.Flat;
             G_Key.ForeColor = Color.Transparent;
-            G_Key.Location = new Point(573, 494);
+            G_Key.Location = new Point(562, 483);
             G_Key.Name = "G_Key";
             G_Key.Size = new Size(50, 50);
             G_Key.TabIndex = 18;
@@ -218,7 +220,7 @@
             H_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             H_Key.FlatStyle = FlatStyle.Flat;
             H_Key.ForeColor = Color.Transparent;
-            H_Key.Location = new Point(629, 494);
+            H_Key.Location = new Point(618, 483);
             H_Key.Name = "H_Key";
             H_Key.Size = new Size(50, 50);
             H_Key.TabIndex = 19;
@@ -236,7 +238,7 @@
             I_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             I_Key.FlatStyle = FlatStyle.Flat;
             I_Key.ForeColor = Color.Transparent;
-            I_Key.Location = new Point(685, 494);
+            I_Key.Location = new Point(674, 483);
             I_Key.Name = "I_Key";
             I_Key.Size = new Size(50, 50);
             I_Key.TabIndex = 20;
@@ -254,7 +256,7 @@
             J_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             J_Key.FlatStyle = FlatStyle.Flat;
             J_Key.ForeColor = Color.Transparent;
-            J_Key.Location = new Point(741, 494);
+            J_Key.Location = new Point(730, 483);
             J_Key.Name = "J_Key";
             J_Key.Size = new Size(50, 50);
             J_Key.TabIndex = 21;
@@ -272,7 +274,7 @@
             K_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             K_Key.FlatStyle = FlatStyle.Flat;
             K_Key.ForeColor = Color.Transparent;
-            K_Key.Location = new Point(264, 550);
+            K_Key.Location = new Point(253, 539);
             K_Key.Name = "K_Key";
             K_Key.Size = new Size(50, 50);
             K_Key.TabIndex = 22;
@@ -290,7 +292,7 @@
             L_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             L_Key.FlatStyle = FlatStyle.Flat;
             L_Key.ForeColor = Color.Transparent;
-            L_Key.Location = new Point(320, 550);
+            L_Key.Location = new Point(309, 539);
             L_Key.Name = "L_Key";
             L_Key.Size = new Size(50, 50);
             L_Key.TabIndex = 23;
@@ -308,7 +310,7 @@
             M_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             M_Key.FlatStyle = FlatStyle.Flat;
             M_Key.ForeColor = Color.Transparent;
-            M_Key.Location = new Point(376, 550);
+            M_Key.Location = new Point(365, 539);
             M_Key.Name = "M_Key";
             M_Key.Size = new Size(50, 50);
             M_Key.TabIndex = 24;
@@ -326,7 +328,7 @@
             N_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             N_Key.FlatStyle = FlatStyle.Flat;
             N_Key.ForeColor = Color.Transparent;
-            N_Key.Location = new Point(432, 550);
+            N_Key.Location = new Point(421, 539);
             N_Key.Name = "N_Key";
             N_Key.Size = new Size(50, 50);
             N_Key.TabIndex = 25;
@@ -344,7 +346,7 @@
             O_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             O_Key.FlatStyle = FlatStyle.Flat;
             O_Key.ForeColor = Color.Transparent;
-            O_Key.Location = new Point(488, 550);
+            O_Key.Location = new Point(477, 539);
             O_Key.Name = "O_Key";
             O_Key.Size = new Size(50, 50);
             O_Key.TabIndex = 26;
@@ -362,7 +364,7 @@
             P_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             P_Key.FlatStyle = FlatStyle.Flat;
             P_Key.ForeColor = Color.Transparent;
-            P_Key.Location = new Point(544, 550);
+            P_Key.Location = new Point(533, 539);
             P_Key.Name = "P_Key";
             P_Key.Size = new Size(50, 50);
             P_Key.TabIndex = 27;
@@ -380,30 +382,30 @@
             Q_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             Q_Key.FlatStyle = FlatStyle.Flat;
             Q_Key.ForeColor = Color.Transparent;
-            Q_Key.Location = new Point(600, 550);
+            Q_Key.Location = new Point(589, 539);
             Q_Key.Name = "Q_Key";
             Q_Key.Size = new Size(50, 50);
             Q_Key.TabIndex = 28;
             Q_Key.UseVisualStyleBackColor = false;
             Q_Key.Click += Q_Key_Click;
             // 
-            // R__Key
+            // R_Key
             // 
-            R__Key.BackColor = Color.Transparent;
-            R__Key.BackgroundImage = Properties.Resources.R_Key_Light;
-            R__Key.BackgroundImageLayout = ImageLayout.Stretch;
-            R__Key.Cursor = Cursors.Hand;
-            R__Key.FlatAppearance.BorderSize = 0;
-            R__Key.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            R__Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            R__Key.FlatStyle = FlatStyle.Flat;
-            R__Key.ForeColor = Color.Transparent;
-            R__Key.Location = new Point(660, 550);
-            R__Key.Name = "R__Key";
-            R__Key.Size = new Size(50, 50);
-            R__Key.TabIndex = 29;
-            R__Key.UseVisualStyleBackColor = false;
-            R__Key.Click += R__Key_Click;
+            R_Key.BackColor = Color.Transparent;
+            R_Key.BackgroundImage = Properties.Resources.R_Key_Light;
+            R_Key.BackgroundImageLayout = ImageLayout.Stretch;
+            R_Key.Cursor = Cursors.Hand;
+            R_Key.FlatAppearance.BorderSize = 0;
+            R_Key.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            R_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            R_Key.FlatStyle = FlatStyle.Flat;
+            R_Key.ForeColor = Color.Transparent;
+            R_Key.Location = new Point(649, 539);
+            R_Key.Name = "R_Key";
+            R_Key.Size = new Size(50, 50);
+            R_Key.TabIndex = 29;
+            R_Key.UseVisualStyleBackColor = false;
+            R_Key.Click += R__Key_Click;
             // 
             // S_Key
             // 
@@ -416,7 +418,7 @@
             S_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             S_Key.FlatStyle = FlatStyle.Flat;
             S_Key.ForeColor = Color.Transparent;
-            S_Key.Location = new Point(716, 550);
+            S_Key.Location = new Point(705, 539);
             S_Key.Name = "S_Key";
             S_Key.Size = new Size(50, 50);
             S_Key.TabIndex = 30;
@@ -434,7 +436,7 @@
             T_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             T_Key.FlatStyle = FlatStyle.Flat;
             T_Key.ForeColor = Color.Transparent;
-            T_Key.Location = new Point(320, 606);
+            T_Key.Location = new Point(309, 595);
             T_Key.Name = "T_Key";
             T_Key.Size = new Size(50, 50);
             T_Key.TabIndex = 31;
@@ -452,7 +454,7 @@
             U_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             U_Key.FlatStyle = FlatStyle.Flat;
             U_Key.ForeColor = Color.Transparent;
-            U_Key.Location = new Point(376, 606);
+            U_Key.Location = new Point(365, 595);
             U_Key.Name = "U_Key";
             U_Key.Size = new Size(50, 50);
             U_Key.TabIndex = 32;
@@ -470,7 +472,7 @@
             V_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             V_Key.FlatStyle = FlatStyle.Flat;
             V_Key.ForeColor = Color.Transparent;
-            V_Key.Location = new Point(432, 606);
+            V_Key.Location = new Point(421, 595);
             V_Key.Name = "V_Key";
             V_Key.Size = new Size(50, 50);
             V_Key.TabIndex = 33;
@@ -488,7 +490,7 @@
             W_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             W_Key.FlatStyle = FlatStyle.Flat;
             W_Key.ForeColor = Color.Transparent;
-            W_Key.Location = new Point(488, 606);
+            W_Key.Location = new Point(477, 595);
             W_Key.Name = "W_Key";
             W_Key.Size = new Size(50, 50);
             W_Key.TabIndex = 34;
@@ -506,7 +508,7 @@
             X_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             X_Key.FlatStyle = FlatStyle.Flat;
             X_Key.ForeColor = Color.Transparent;
-            X_Key.Location = new Point(544, 606);
+            X_Key.Location = new Point(533, 595);
             X_Key.Name = "X_Key";
             X_Key.Size = new Size(50, 50);
             X_Key.TabIndex = 35;
@@ -524,7 +526,7 @@
             Y_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             Y_Key.FlatStyle = FlatStyle.Flat;
             Y_Key.ForeColor = Color.Transparent;
-            Y_Key.Location = new Point(600, 606);
+            Y_Key.Location = new Point(589, 595);
             Y_Key.Name = "Y_Key";
             Y_Key.Size = new Size(50, 50);
             Y_Key.TabIndex = 36;
@@ -542,7 +544,7 @@
             Z_Key.FlatAppearance.MouseOverBackColor = Color.Transparent;
             Z_Key.FlatStyle = FlatStyle.Flat;
             Z_Key.ForeColor = Color.Transparent;
-            Z_Key.Location = new Point(660, 606);
+            Z_Key.Location = new Point(649, 595);
             Z_Key.Name = "Z_Key";
             Z_Key.Size = new Size(50, 50);
             Z_Key.TabIndex = 37;
@@ -564,7 +566,7 @@
             panel1.Controls.Add(letra3);
             panel1.Controls.Add(letra2);
             panel1.Controls.Add(letra1);
-            panel1.Location = new Point(237, 408);
+            panel1.Location = new Point(253, 398);
             panel1.Name = "panel1";
             panel1.Size = new Size(554, 58);
             panel1.TabIndex = 39;
@@ -575,7 +577,7 @@
             letra12.FlatStyle = FlatStyle.Flat;
             letra12.Font = new Font("Microsoft Sans Serif", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
             letra12.ForeColor = Color.Black;
-            letra12.Location = new Point(498, 5);
+            letra12.Location = new Point(498, 4);
             letra12.Name = "letra12";
             letra12.Size = new Size(47, 50);
             letra12.TabIndex = 46;
@@ -589,7 +591,7 @@
             letra8.FlatStyle = FlatStyle.Flat;
             letra8.Font = new Font("Microsoft Sans Serif", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
             letra8.ForeColor = Color.Black;
-            letra8.Location = new Point(321, 6);
+            letra8.Location = new Point(321, 5);
             letra8.Name = "letra8";
             letra8.Size = new Size(47, 50);
             letra8.TabIndex = 46;
@@ -603,7 +605,7 @@
             letra11.FlatStyle = FlatStyle.Flat;
             letra11.Font = new Font("Microsoft Sans Serif", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
             letra11.ForeColor = Color.Black;
-            letra11.Location = new Point(453, 6);
+            letra11.Location = new Point(453, 5);
             letra11.Name = "letra11";
             letra11.Size = new Size(47, 50);
             letra11.TabIndex = 45;
@@ -617,7 +619,7 @@
             letra10.FlatStyle = FlatStyle.Flat;
             letra10.Font = new Font("Microsoft Sans Serif", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
             letra10.ForeColor = Color.Black;
-            letra10.Location = new Point(411, 6);
+            letra10.Location = new Point(411, 5);
             letra10.Name = "letra10";
             letra10.Size = new Size(47, 50);
             letra10.TabIndex = 44;
@@ -631,7 +633,7 @@
             letra7.FlatStyle = FlatStyle.Flat;
             letra7.Font = new Font("Microsoft Sans Serif", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
             letra7.ForeColor = Color.Black;
-            letra7.Location = new Point(276, 6);
+            letra7.Location = new Point(276, 5);
             letra7.Name = "letra7";
             letra7.Size = new Size(47, 50);
             letra7.TabIndex = 45;
@@ -645,7 +647,7 @@
             letra9.FlatStyle = FlatStyle.Flat;
             letra9.Font = new Font("Microsoft Sans Serif", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
             letra9.ForeColor = Color.Black;
-            letra9.Location = new Point(366, 6);
+            letra9.Location = new Point(366, 5);
             letra9.Name = "letra9";
             letra9.Size = new Size(47, 50);
             letra9.TabIndex = 43;
@@ -659,7 +661,7 @@
             letra6.FlatStyle = FlatStyle.Flat;
             letra6.Font = new Font("Microsoft Sans Serif", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
             letra6.ForeColor = Color.Black;
-            letra6.Location = new Point(234, 6);
+            letra6.Location = new Point(234, 5);
             letra6.Name = "letra6";
             letra6.Size = new Size(47, 50);
             letra6.TabIndex = 44;
@@ -673,7 +675,7 @@
             letra5.FlatStyle = FlatStyle.Flat;
             letra5.Font = new Font("Microsoft Sans Serif", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
             letra5.ForeColor = Color.Black;
-            letra5.Location = new Point(189, 6);
+            letra5.Location = new Point(189, 5);
             letra5.Name = "letra5";
             letra5.Size = new Size(47, 50);
             letra5.TabIndex = 43;
@@ -687,7 +689,7 @@
             letra4.FlatStyle = FlatStyle.Flat;
             letra4.Font = new Font("Microsoft Sans Serif", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
             letra4.ForeColor = Color.Black;
-            letra4.Location = new Point(148, 6);
+            letra4.Location = new Point(147, 5);
             letra4.Name = "letra4";
             letra4.Size = new Size(47, 50);
             letra4.TabIndex = 42;
@@ -701,7 +703,7 @@
             letra3.FlatStyle = FlatStyle.Flat;
             letra3.Font = new Font("Microsoft Sans Serif", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
             letra3.ForeColor = Color.Black;
-            letra3.Location = new Point(103, 6);
+            letra3.Location = new Point(106, 5);
             letra3.Name = "letra3";
             letra3.Size = new Size(47, 50);
             letra3.TabIndex = 41;
@@ -715,7 +717,7 @@
             letra2.FlatStyle = FlatStyle.Flat;
             letra2.Font = new Font("Microsoft Sans Serif", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
             letra2.ForeColor = Color.Black;
-            letra2.Location = new Point(61, 6);
+            letra2.Location = new Point(63, 5);
             letra2.Name = "letra2";
             letra2.Size = new Size(47, 50);
             letra2.TabIndex = 40;
@@ -729,7 +731,7 @@
             letra1.FlatStyle = FlatStyle.Flat;
             letra1.Font = new Font("Microsoft Sans Serif", 27.7499962F, FontStyle.Bold, GraphicsUnit.Point);
             letra1.ForeColor = Color.Black;
-            letra1.Location = new Point(16, 6);
+            letra1.Location = new Point(18, 5);
             letra1.Name = "letra1";
             letra1.Size = new Size(47, 50);
             letra1.TabIndex = 0;
@@ -740,7 +742,7 @@
             // avatar_pictureBox
             // 
             avatar_pictureBox.BackColor = Color.Transparent;
-            avatar_pictureBox.Location = new Point(57, 50);
+            avatar_pictureBox.Location = new Point(52, 88);
             avatar_pictureBox.Name = "avatar_pictureBox";
             avatar_pictureBox.Size = new Size(230, 228);
             avatar_pictureBox.TabIndex = 42;
@@ -761,23 +763,23 @@
             label_errores.BackColor = Color.FromArgb(255, 192, 192);
             label_errores.Font = new Font("Reem Kufi", 18F, FontStyle.Bold, GraphicsUnit.Point);
             label_errores.ForeColor = Color.Red;
-            label_errores.Location = new Point(320, 193);
+            label_errores.Location = new Point(316, 236);
             label_errores.Name = "label_errores";
             label_errores.Size = new Size(125, 44);
             label_errores.TabIndex = 44;
             label_errores.Text = "Errores: 0";
             // 
-            // label_puntos
+            // label_puntosTot
             // 
-            label_puntos.AutoSize = true;
-            label_puntos.BackColor = Color.FromArgb(192, 255, 192);
-            label_puntos.Font = new Font("Reem Kufi", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label_puntos.ForeColor = Color.Green;
-            label_puntos.Location = new Point(320, 136);
-            label_puntos.Name = "label_puntos";
-            label_puntos.Size = new Size(118, 44);
-            label_puntos.TabIndex = 45;
-            label_puntos.Text = "Puntos: 0";
+            label_puntosTot.AutoSize = true;
+            label_puntosTot.BackColor = Color.FromArgb(192, 255, 192);
+            label_puntosTot.Font = new Font("Reem Kufi", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label_puntosTot.ForeColor = Color.Green;
+            label_puntosTot.Location = new Point(77, 314);
+            label_puntosTot.Name = "label_puntosTot";
+            label_puntosTot.Size = new Size(168, 44);
+            label_puntosTot.TabIndex = 45;
+            label_puntosTot.Text = "Puntuación: 0";
             // 
             // button_salir
             // 
@@ -799,11 +801,37 @@
             label_categoria.BackColor = Color.FromArgb(128, 255, 255);
             label_categoria.Font = new Font("Reem Kufi", 18F, FontStyle.Bold, GraphicsUnit.Point);
             label_categoria.ForeColor = Color.FromArgb(0, 64, 64);
-            label_categoria.Location = new Point(320, 75);
+            label_categoria.Location = new Point(316, 129);
             label_categoria.Name = "label_categoria";
             label_categoria.Size = new Size(234, 44);
             label_categoria.TabIndex = 47;
             label_categoria.Text = "Categoría: Ejemplo";
+            // 
+            // label_puntosRond
+            // 
+            label_puntosRond.AutoSize = true;
+            label_puntosRond.BackColor = Color.FromArgb(192, 255, 192);
+            label_puntosRond.Font = new Font("Reem Kufi", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label_puntosRond.ForeColor = Color.Green;
+            label_puntosRond.Location = new Point(316, 183);
+            label_puntosRond.Name = "label_puntosRond";
+            label_puntosRond.Size = new Size(189, 44);
+            label_puntosRond.TabIndex = 48;
+            label_puntosRond.Text = "Puntos ronda: 0";
+            // 
+            // button_howtoplay
+            // 
+            button_howtoplay.BackColor = Color.MediumSeaGreen;
+            button_howtoplay.FlatStyle = FlatStyle.Flat;
+            button_howtoplay.Font = new Font("Reem Kufi", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            button_howtoplay.ForeColor = Color.Black;
+            button_howtoplay.Location = new Point(104, 35);
+            button_howtoplay.Name = "button_howtoplay";
+            button_howtoplay.Size = new Size(124, 38);
+            button_howtoplay.TabIndex = 49;
+            button_howtoplay.Text = "¿Cómo jugar?";
+            button_howtoplay.UseVisualStyleBackColor = false;
+            button_howtoplay.Click += button_howtoplay_Click;
             // 
             // _1PlayerMode
             // 
@@ -812,9 +840,11 @@
             BackgroundImage = Properties.Resources.game_background_ajusted;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1008, 729);
+            Controls.Add(button_howtoplay);
+            Controls.Add(label_puntosRond);
             Controls.Add(label_categoria);
             Controls.Add(button_salir);
-            Controls.Add(label_puntos);
+            Controls.Add(label_puntosTot);
             Controls.Add(label_errores);
             Controls.Add(pictureBox_ahorcado);
             Controls.Add(avatar_pictureBox);
@@ -827,7 +857,7 @@
             Controls.Add(U_Key);
             Controls.Add(T_Key);
             Controls.Add(S_Key);
-            Controls.Add(R__Key);
+            Controls.Add(R_Key);
             Controls.Add(Q_Key);
             Controls.Add(P_Key);
             Controls.Add(O_Key);
@@ -846,7 +876,7 @@
             Controls.Add(B_Key);
             Controls.Add(A_Key);
             Name = "_1PlayerMode";
-            Text = "Juego - 1 Jugador";
+            Text = "Ahorcadox - 1 Jugador";
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)avatar_pictureBox).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_ahorcado).EndInit();
@@ -872,7 +902,7 @@
         private Button O_Key;
         private Button P_Key;
         private Button Q_Key;
-        private Button R__Key;
+        private Button R_Key;
         private Button S_Key;
         private Button T_Key;
         private Button U_Key;
@@ -897,8 +927,10 @@
         public PictureBox avatar_pictureBox;
         public PictureBox pictureBox_ahorcado;
         private Label label_errores;
-        private Label label_puntos;
+        private Label label_puntosTot;
         private Button button_salir;
         private Label label_categoria;
+        private Label label_puntosRond;
+        private Button button_howtoplay;
     }
 }

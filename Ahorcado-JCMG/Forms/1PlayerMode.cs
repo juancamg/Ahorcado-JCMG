@@ -19,29 +19,31 @@ namespace Ahorcado_JCMG.Forms
         string palabraSecreta = "";
         Button[] letrasBotones = new Button[12];
         int intentosFallidos = 0;
-        int puntos = 0;
-        public _1PlayerMode(string categoriaSeleccionada)
+        int puntosTotales = 0;
+        int puntosRonda = 0;
+        string categoriaSeleccionada;
+        public _1PlayerMode(String categoriaSeleccionada)
         {
+            this.categoriaSeleccionada = categoriaSeleccionada;
             InitializeComponent();
-            label_categoria.Text = "Categoría: " + categoriaSeleccionada.ToString();
-            palabraSecreta = GenerarPalabra(categoriaSeleccionada);
-            InicializarBotones();
+            label_categoria.Text = "Categoría: " + categoriaSeleccionada;
+
+            IniciarPartida();
         }
 
-        public void InicializarAvatar(int selectedAvatar)
+        private void IniciarPartida()
         {
-            switch (selectedAvatar)
-            {
-                case 1: avatar_pictureBox.Image = Properties.Resources.Avatar1; break;
-                case 2: avatar_pictureBox.Image = Properties.Resources.Avatar2; break;
-                case 3: avatar_pictureBox.Image = Properties.Resources.Avatar3; break;
-                case 4: avatar_pictureBox.Image = Properties.Resources.Avatar4; break;
-                case 5: avatar_pictureBox.Image = Properties.Resources.Avatar5; break;
-                case 6: avatar_pictureBox.Image = Properties.Resources.Avatar6; break;
-                case 7: avatar_pictureBox.Image = Properties.Resources.Avatar7; break;
-                default: avatar_pictureBox.Image = null; break;
-            }
-            avatar_pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+            intentosFallidos = 0;
+            puntosTotales = puntosTotales + puntosRonda;
+            puntosRonda = 0;
+            label_puntosTot.Text = "Puntuación: " + puntosTotales;
+            label_puntosRond.Text = "Puntos ronda: 0";
+            label_errores.Text = "Errores: 0";
+
+            palabraSecreta = GenerarPalabra(categoriaSeleccionada);
+            InicializarBotones();
+            InicializarTeclado();
+            ActualizarImagenAhorcado(0);
         }
 
         private static string GenerarPalabra(string categoriaSeleccionada)
@@ -69,6 +71,7 @@ namespace Ahorcado_JCMG.Forms
             for (int i = 0; i < 12; i++)
             {
                 letrasBotones[i] = panel1.Controls["letra" + (i + 1)] as Button;
+                letrasBotones[i].Text = "";
             }
 
             // Inicializa los botones con guiones bajos según la longitud de palabraSecreta
@@ -81,19 +84,49 @@ namespace Ahorcado_JCMG.Forms
                 }
             }
         }
+        private void InicializarTeclado()
+        {
+            // Crear un array de letras del teclado
+            char[] letrasTeclado = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
+
+            foreach (char letra in letrasTeclado)
+            {
+                Button boton = Controls[letra + "_Key"] as Button;
+                if (boton != null)
+                {
+                    boton.BackgroundImage = (System.Drawing.Image)Properties.Resources.ResourceManager.GetObject($"{letra}_Key_Light");
+                    boton.Enabled = true;
+                }
+            }
+        }
+
+        public void InicializarAvatar(int selectedAvatar)
+        {
+            switch (selectedAvatar)
+            {
+                case 1: avatar_pictureBox.Image = Properties.Resources.Avatar1; break;
+                case 2: avatar_pictureBox.Image = Properties.Resources.Avatar2; break;
+                case 3: avatar_pictureBox.Image = Properties.Resources.Avatar3; break;
+                case 4: avatar_pictureBox.Image = Properties.Resources.Avatar4; break;
+                case 5: avatar_pictureBox.Image = Properties.Resources.Avatar5; break;
+                case 6: avatar_pictureBox.Image = Properties.Resources.Avatar6; break;
+                case 7: avatar_pictureBox.Image = Properties.Resources.Avatar7; break;
+                default: avatar_pictureBox.Image = null; break;
+            }
+            avatar_pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+        }
 
         private void ActualizarImagenAhorcado(int intentos)
         {
             // Actualiza la imagen del ahorcado
             switch (intentos)
             {
-                case 0: break;
+                case 0: pictureBox_ahorcado.Image = null; break;
                 case 1: pictureBox_ahorcado.Image = Properties.Resources.GummyBear1; break;
                 case 2: pictureBox_ahorcado.Image = Properties.Resources.GummyBear2; break;
                 case 3: pictureBox_ahorcado.Image = Properties.Resources.GummyBear3; break;
                 case 4: pictureBox_ahorcado.Image = Properties.Resources.GummyBear4; break;
                 case 5: pictureBox_ahorcado.Image = Properties.Resources.GummyBear5; break;
-                case 6: ComprobarDerrota(); break;
             }
             pictureBox_ahorcado.SizeMode = PictureBoxSizeMode.StretchImage;
         }
@@ -107,11 +140,9 @@ namespace Ahorcado_JCMG.Forms
                 if (palabraSecreta[i] == letra)
                 {
                     acierto = true;
-                    // Actualiza la letra en el botón correspondiente
                     letrasBotones[i].Text = letra.ToString();
-                    puntos = puntos + 2;
-                    label_puntos.Text = "Puntos: " + puntos.ToString();
-                    ComprobarVictoria();
+                    puntosRonda = puntosRonda + 2;
+                    label_puntosRond.Text = "Puntos ronda: " + puntosRonda;
                 }
             }
 
@@ -119,9 +150,9 @@ namespace Ahorcado_JCMG.Forms
             {
                 // La letra no se encuentra en la palabra
                 intentosFallidos++;
-                puntos = puntos - 1;
+                puntosRonda = puntosRonda - 1;
                 ActualizarImagenAhorcado(intentosFallidos);
-                label_puntos.Text = "Puntos: " + puntos.ToString();
+                label_puntosRond.Text = "Puntos ronda: " + puntosRonda;
                 label_errores.Text = "Errores: " + intentosFallidos.ToString();
                 return false;
             }
@@ -137,7 +168,13 @@ namespace Ahorcado_JCMG.Forms
                     return false; // Todavía hay al menos una letra sin adivinar
                 }
             }
-            MessageBox.Show("¡Has ganado!");
+            string message = "¡Has ganado! Obtienes 10 puntos extra.\n¿Deseas jugar otra partida?";
+            puntosRonda = puntosRonda + 10;
+            DialogResult result = MessageBox.Show(message, "Partida finalizada", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if (result == DialogResult.Yes)
+            {
+                IniciarPartida();
+            }
             return true;
         }
 
@@ -145,7 +182,13 @@ namespace Ahorcado_JCMG.Forms
         {
             if (intentosFallidos >= 6)
             {
-                MessageBox.Show("¡Has perdido! La palabra era: " + palabraSecreta);
+                string message = "¡Has perdido! La palabra era: " + palabraSecreta + ". Has perdido 5 puntos.\n¿Deseas jugar otra partida?";
+                puntosRonda = puntosRonda - 5;
+                DialogResult result = MessageBox.Show(message, "Partida finalizada", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                if (result == DialogResult.Yes)
+                {
+                    IniciarPartida();
+                }
                 return true;
             }
             return false;
@@ -162,6 +205,9 @@ namespace Ahorcado_JCMG.Forms
                 ((Button)sender).BackgroundImage = (System.Drawing.Image)Properties.Resources.ResourceManager.GetObject($"{letra}_Key_Red");
             }
              ((Button)sender).Enabled = false;
+
+            ComprobarDerrota();
+            ComprobarVictoria();
         }
 
         private void A_Key_Click(object sender, EventArgs e)
@@ -297,6 +343,11 @@ namespace Ahorcado_JCMG.Forms
         private void button_salir_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void button_howtoplay_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Pulsa con el mouse cada letra para intentar adivinar la palabra.\nTienes 6 intentos.", "¿Cómo jugar?", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 

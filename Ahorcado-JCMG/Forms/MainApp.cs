@@ -65,18 +65,47 @@ namespace Ahorcado_JCMG
 
         private void button_2pmode_Click(object sender, EventArgs e)
         {
-            // Crear una instancia de 2PlayerMode
-            Forms._2PlayerMode form2PlayerMode = new Forms._2PlayerMode();
+            // Abre el formulario de configuración de partida
+            ConfigurationForm configForm = new ConfigurationForm();
+            configForm.AceptarConfiguracion += (sender2, e2) =>
+            {
+                // Evento que se dispara cuando se acepta la configuración
+                configForm.Close();
 
-            // Configurar las mismas medidas y posición que MainApp
-            form2PlayerMode.Size = this.Size;
-            form2PlayerMode.Location = this.Location;
+                // Variables para almacenar avatares seleccionados
+                int selectedAvatar1 = 0;
+                int selectedAvatar2 = 0;
 
-            // Mostrar 2PlayerMode y ocultar MainApp
-            form2PlayerMode.Show();
-            this.Hide();
+                // Abre el formulario de selección de avatares para el jugador 1
+                AvatarSelectionForm avatarForm1 = new AvatarSelectionForm();
+                avatarForm1.AceptarAvatares += (sender3, e3) =>
+                {
+                    // Evento que se desencadena cuando se acepta la selección de avatares para el jugador 1
+                    avatarForm1.Close();
+                    selectedAvatar1 = avatarForm1.SelectedAvatar;
 
-            form2PlayerMode.FormClosed += (s, args) => this.Show();
+                    // Abre el formulario de selección de avatares para el jugador 2
+                    AvatarSelectionForm avatarForm2 = new AvatarSelectionForm();
+                    avatarForm2.AceptarAvatares += (sender4, e4) =>
+                    {
+                        // Evento que se desencadena cuando se acepta la selección de avatares para el jugador 2
+                        avatarForm2.Close();
+                        selectedAvatar2 = avatarForm2.SelectedAvatar;
+
+                        // Abre el formulario de juego 2P
+                        string categoriaSeleccionada = configForm.comboBoxCategoria.Text; // Obtén la categoría seleccionada
+                        _2PlayerMode gameForm = new _2PlayerMode(categoriaSeleccionada);
+                        gameForm.InicializarAvatar(selectedAvatar1, 1);
+                        gameForm.InicializarAvatar(selectedAvatar2, 2);
+                        gameForm.Show();
+                        gameForm.FormClosed += (s, args) => this.Show(); // Muestra MainApp cuando gameForm se cierre
+                        this.Hide();
+                    };
+                    avatarForm2.ShowDialog();
+                };
+                avatarForm1.ShowDialog();
+            };
+            configForm.ShowDialog();
         }
 
     }
