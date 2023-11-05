@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Ahorcado_JCMG.Forms
 {
-    public partial class StoryMode : Form
+    public partial class EndGame : Form
     {
-        public StoryMode()
+        public EndGame()
         {
             InitializeComponent();
         }

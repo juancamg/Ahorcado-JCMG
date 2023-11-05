@@ -17,17 +17,16 @@ namespace Ahorcado_JCMG.Forms
     public partial class _1PlayerMode : Form
     {
         string palabraSecreta = "";
-        char[] palabraOculta;
-        int intentosFallidos = 0;
         Button[] letrasBotones = new Button[12];
+        int intentosFallidos = 0;
+        int puntos = 0;
         public _1PlayerMode(string categoriaSeleccionada)
         {
             InitializeComponent();
+            label_categoria.Text = "Categoría: " + categoriaSeleccionada.ToString();
             palabraSecreta = GenerarPalabra(categoriaSeleccionada);
             InicializarBotones();
         }
-
-        public int SelectedAvatar { get; set; }
 
         public void InicializarAvatar(int selectedAvatar)
         {
@@ -94,10 +93,7 @@ namespace Ahorcado_JCMG.Forms
                 case 3: pictureBox_ahorcado.Image = Properties.Resources.GummyBear3; break;
                 case 4: pictureBox_ahorcado.Image = Properties.Resources.GummyBear4; break;
                 case 5: pictureBox_ahorcado.Image = Properties.Resources.GummyBear5; break;
-                case 6:
-                    pictureBox_ahorcado.Image = Properties.Resources.GummyBear6;
-                    MessageBox.Show("¡Has perdido! La palabra era: " + palabraSecreta);
-                    break;
+                case 6: ComprobarDerrota(); break;
             }
             pictureBox_ahorcado.SizeMode = PictureBoxSizeMode.StretchImage;
         }
@@ -113,6 +109,9 @@ namespace Ahorcado_JCMG.Forms
                     acierto = true;
                     // Actualiza la letra en el botón correspondiente
                     letrasBotones[i].Text = letra.ToString();
+                    puntos = puntos + 2;
+                    label_puntos.Text = "Puntos: " + puntos.ToString();
+                    ComprobarVictoria();
                 }
             }
 
@@ -120,11 +119,36 @@ namespace Ahorcado_JCMG.Forms
             {
                 // La letra no se encuentra en la palabra
                 intentosFallidos++;
+                puntos = puntos - 1;
                 ActualizarImagenAhorcado(intentosFallidos);
+                label_puntos.Text = "Puntos: " + puntos.ToString();
+                label_errores.Text = "Errores: " + intentosFallidos.ToString();
                 return false;
             }
-
             return true;
+        }
+
+        private bool ComprobarVictoria()
+        {
+            foreach (Button boton in letrasBotones)
+            {
+                if (boton.Text == "_")
+                {
+                    return false; // Todavía hay al menos una letra sin adivinar
+                }
+            }
+            MessageBox.Show("¡Has ganado!");
+            return true;
+        }
+
+        private bool ComprobarDerrota()
+        {
+            if (intentosFallidos >= 6)
+            {
+                MessageBox.Show("¡Has perdido! La palabra era: " + palabraSecreta);
+                return true;
+            }
+            return false;
         }
 
         private void Letra_Click(object sender, EventArgs e, char letra)
@@ -268,6 +292,11 @@ namespace Ahorcado_JCMG.Forms
         private void Z_Key_Click(object sender, EventArgs e)
         {
             Letra_Click(sender, e, 'Z');
+        }
+
+        private void button_salir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 

@@ -1,6 +1,6 @@
 ﻿namespace Ahorcado_JCMG.Forms
 {
-    partial class StoryMode
+    partial class EndGame
     {
         /// <summary>
         /// Required designer variable.
@@ -30,15 +30,13 @@
         {
             SuspendLayout();
             // 
-            // StoryMode
+            // EndGame
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.game_background_ajusted;
-            BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1008, 729);
-            Name = "StoryMode";
-            Text = "Juego - Modo historia";
+            ClientSize = new Size(678, 344);
+            Name = "EndGame";
+            Text = "Fin de partida";
             ResumeLayout(false);
         }
 

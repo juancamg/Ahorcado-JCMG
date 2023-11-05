@@ -69,6 +69,10 @@
             letra1 = new Button();
             avatar_pictureBox = new PictureBox();
             pictureBox_ahorcado = new PictureBox();
+            label_errores = new Label();
+            label_puntos = new Label();
+            button_salir = new Button();
+            label_categoria = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)avatar_pictureBox).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_ahorcado).BeginInit();
@@ -751,6 +755,56 @@
             pictureBox_ahorcado.TabIndex = 43;
             pictureBox_ahorcado.TabStop = false;
             // 
+            // label_errores
+            // 
+            label_errores.AutoSize = true;
+            label_errores.BackColor = Color.FromArgb(255, 192, 192);
+            label_errores.Font = new Font("Reem Kufi", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label_errores.ForeColor = Color.Red;
+            label_errores.Location = new Point(320, 193);
+            label_errores.Name = "label_errores";
+            label_errores.Size = new Size(125, 44);
+            label_errores.TabIndex = 44;
+            label_errores.Text = "Errores: 0";
+            // 
+            // label_puntos
+            // 
+            label_puntos.AutoSize = true;
+            label_puntos.BackColor = Color.FromArgb(192, 255, 192);
+            label_puntos.Font = new Font("Reem Kufi", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label_puntos.ForeColor = Color.Green;
+            label_puntos.Location = new Point(320, 136);
+            label_puntos.Name = "label_puntos";
+            label_puntos.Size = new Size(118, 44);
+            label_puntos.TabIndex = 45;
+            label_puntos.Text = "Puntos: 0";
+            // 
+            // button_salir
+            // 
+            button_salir.BackColor = Color.LightCoral;
+            button_salir.FlatStyle = FlatStyle.Flat;
+            button_salir.Font = new Font("Reem Kufi", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            button_salir.ForeColor = Color.Black;
+            button_salir.Location = new Point(843, 661);
+            button_salir.Name = "button_salir";
+            button_salir.Size = new Size(105, 38);
+            button_salir.TabIndex = 46;
+            button_salir.Text = "Salir";
+            button_salir.UseVisualStyleBackColor = false;
+            button_salir.Click += button_salir_Click;
+            // 
+            // label_categoria
+            // 
+            label_categoria.AutoSize = true;
+            label_categoria.BackColor = Color.FromArgb(128, 255, 255);
+            label_categoria.Font = new Font("Reem Kufi", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label_categoria.ForeColor = Color.FromArgb(0, 64, 64);
+            label_categoria.Location = new Point(320, 75);
+            label_categoria.Name = "label_categoria";
+            label_categoria.Size = new Size(234, 44);
+            label_categoria.TabIndex = 47;
+            label_categoria.Text = "Categoría: Ejemplo";
+            // 
             // _1PlayerMode
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -758,6 +812,10 @@
             BackgroundImage = Properties.Resources.game_background_ajusted;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1008, 729);
+            Controls.Add(label_categoria);
+            Controls.Add(button_salir);
+            Controls.Add(label_puntos);
+            Controls.Add(label_errores);
             Controls.Add(pictureBox_ahorcado);
             Controls.Add(avatar_pictureBox);
             Controls.Add(panel1);
@@ -793,6 +851,7 @@
             ((System.ComponentModel.ISupportInitialize)avatar_pictureBox).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox_ahorcado).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -837,5 +896,9 @@
         private Button letra2;
         public PictureBox avatar_pictureBox;
         public PictureBox pictureBox_ahorcado;
+        private Label label_errores;
+        private Label label_puntos;
+        private Button button_salir;
+        private Label label_categoria;
     }
 }

@@ -33,18 +33,6 @@ namespace Ahorcado_JCMG
             button_2pmode.Width = 47;
         }
 
-        private void button_storymode_MouseEnter(object sender, EventArgs e)
-        {
-            button_storymode.Height = 65;
-            button_storymode.Width = 53;
-        }
-
-        private void button_storymode_MouseLeave(object sender, EventArgs e)
-        {
-            button_storymode.Height = 60;
-            button_storymode.Width = 47;
-        }
-
         private void button_1pmode_Click(object sender, EventArgs e)
         {
             // Abre el formulario de configuración de partida
@@ -91,20 +79,5 @@ namespace Ahorcado_JCMG
             form2PlayerMode.FormClosed += (s, args) => this.Show();
         }
 
-        private void button_storymode_Click(object sender, EventArgs e)
-        {
-            // Crear una instancia de StoryMode
-            Forms.StoryMode formStoryMode = new Forms.StoryMode();
-
-            // Configurar las mismas medidas y posición que MainApp
-            formStoryMode.Size = this.Size;
-            formStoryMode.Location = this.Location;
-
-            // Mostrar StoryMode y ocultar MainApp
-            formStoryMode.Show();
-            this.Hide();
-
-            formStoryMode.FormClosed += (s, args) => this.Show();
-        }
     }
 }
